@@ -21,6 +21,18 @@ body {
     height: 100vh;
 }
 
+.title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
 
 .calculadora {
     background-color: black; 
@@ -29,4 +41,25 @@ body {
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     text-align: center;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    background-color: #aa3d3d;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+
+.resultado {
+    font-size: 24px;
+    padding: 50px;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+
 }
