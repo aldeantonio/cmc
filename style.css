@@ -40,6 +40,7 @@ input {
 
 .calculadora {
     background-color: black; 
+    max-width:350px;
     color: white;
     padding: 20px;
     border-radius: 5px;
@@ -63,10 +64,13 @@ button {
 
 
 .resultado {
-    font-size: 24px;
-    padding: 50px;
+    font-size: 17px;
+    width: 100%;
+    text-wrap: wrap;
+    padding: 10px;
+    margin-bottom: 10px;
+    height: 100px;
     background-color: white;
     color: black;
     border-radius: 5px;
-
 }
