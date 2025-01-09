@@ -40,7 +40,7 @@ input {
 
 .calculadora {
     background-color: black; 
-    max-width:350px;
+    width:350px;
     color: white;
     padding: 20px;
     border-radius: 5px;
